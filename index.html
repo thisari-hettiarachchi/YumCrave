@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>YumCrave</title>
+
+    <link rel="shortcut icon" href="assets/images/Logo.png" type="image/svg+xml">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+  </head>
+
+  <body>
+
+    <header class="header" data-header>
+      <div class="container">
+
+        <h1>
+          <a href="#" class="logo">YumCrave<span class="span"></span></a>
+        </h1>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="nav-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#food-menu" class="navbar-link" data-nav-link>Menu</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#contact-us" class="navbar-link" data-nav-link>Contact Us</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <div class="header-btn-group">
+          <button class="search-btn" aria-label="Search" data-search-btn>
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+          <div class="search-bar hidden">
+            <input type="text" placeholder="Search..." data-search-input>
+          </div>
+        </div>
+
+        
+
+          <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+            <span class="line top"></span>
+            <span class="line middle"></span>
+            <span class="line bottom"></span>
+          </button>
+        </div>
+
+      </div>
+    </header>
+
+
+    <main>
+      <article>
+
+
+        <section class="hero" id="home" style="background-image: url('./assets/images/slide2.jpg')">
+          <div class="container">
+
+            <div class="hero-content">
+
+              <h2 class="h1 hero-title">Best Quality Good Taste</h2>
+
+              <button class="btn">Check out Menu</button>
+
+            </div>
+
+          </div>
+        </section>
+
+
+        
+        <!-- 
+          - #ABOUT
+        -->
+
+        <section class="section section-divider gray about" id="about">
+
+          
+          <h1>About Us</h1>
+
+          <div class="container">
+
+            <div class="about-banner">
+              <img src="./assets/images/fastfood.jpg"  loading="lazy" alt="Burger with Drinks" class="w-100 about-img">
+            </div>
+
+            <div class="about-content">
+              <h2 class="section-title">
+                Welcome to YumCrave
+              </h2>
+              <p class="section-text">
+                We’re dedicated to delivering delicious, high-quality meals quickly and conveniently. 
+                Enjoy our handcrafted pasta, pizzas, burgers, refreshing drinks, and irresistible desserts, all made with fresh ingredients.
+              </p>
+              <br>
+              <p>
+                Whether dining in, taking out, or ordering online, we promise great taste and friendly service. 
+                At YumCrave, every meal is crafted with love to bring people together over good food!
+              </p>
+              <br>
+              <div class="abt-btn" style="display: flex; gap: 10px; margin-top: 10px;">
+                <button class="btn btn-hover">Read More</button> 
+                <button class="btn btn-hover">Order Now</button>
+              </div>
+            </div>
+            
+
+          </div>
+        </section>
+
+
+        <section class="section section-divider white promo">
+
+          <h1>We Serve</h1>
+          <div class="food-container" id="food-menu">
+
+            <ul class="promo-list has-scrollbar">
+
+              <li class="promo-item">
+                <div class="promo-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/pizza.png" alt="Pizza Icon" style="width: 200px; height: 50px;">
+                  </div>
+
+                  <h3 class="h3 card-title">Pizzas</h3>
+
+                  <p class="card-text"> 
+                    Indulge in our cheesy, crispy, and flavorful pizzas, topped with the freshest ingredients to satisfy your cravings.
+                  </p>
+
+                  <img src="./assets/images/pizza1.png" width="400" height="250" loading="lazy" alt="Maxican Pizza"
+                    class="w-100 card-banner">
+
+                </div>
+              </li>
+
+              <li class="promo-item">
+                <div class="promo-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/spaguetti.png" alt="Pizza Icon" style="width: 50px; height: 50px;">
+                  </div>
+
+                  <h3 class="h3 card-title">Pastas</h3>
+
+                  <p class="card-text">
+                    Savor the richness of our handcrafted pasta dishes, cooked to perfection with delicious sauces and toppings.
+                  </p>
+
+                  <img src="./assets/images/pasta.png" width="400" height="250" loading="lazy" alt="French Fry"
+                    class="w-100 card-banner">
+
+                </div>
+              </li>
+
+              <li class="promo-item">
+                <div class="promo-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/hamburger.png" alt="Pizza Icon" style="width: 50px; height: 50px;">
+                  </div>
+
+                  <h3 class="h3 card-title">Burgers</h3>
+
+                  <p class="card-text">
+                    Sink your teeth into our juicy, perfectly grilled burgers, loaded with fresh ingredients and bold flavors.
+                  </p>
+
+                  <img src="./assets/images/burger1.png" width="400" height="250" loading="lazy" alt="Burger Kingo"
+                    class="w-100 card-banner">
+
+                </div>
+              </li>
+
+              <li class="promo-item">
+                <div class="promo-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/desserts.png" alt="Pizza Icon" style="width: 50px; height: 50px;">
+                  </div>
+
+                  <h3 class="h3 card-title">Desserts</h3>
+
+                  <p class="card-text">
+                    Delight in our heavenly desserts, crafted to add the perfect sweet ending to your meal.
+                  </p>
+
+                  <img src="./assets/images/dessert.png" width="400" height="275" loading="lazy" alt="Chicken Masala"
+                    class="w-100 card-banner">
+
+                </div>
+              </li>
+
+              <li class="promo-item">
+                <div class="promo-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/soft-drink.png" alt="Pizza Icon" style="width: 50px; height: 50px;">
+                  </div>
+
+                  <h3 class="h3 card-title">Drinks</h3>
+
+                  <p class="card-text">
+                    Quench your thirst with our refreshing drinks, crafted to complement every bite perfectly.
+                  </p>
+
+                  <img src="./assets/images/drinks.png" width="400" height="275" loading="lazy" alt="Soft Drinks"
+                    class="w-100 card-banner">
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+        </section>
+
+ 
+        <footer class="footer">
+          <div class="footer-top">
+            <div class="container" id="contact-us">
+              <!-- Company Section -->
+              <div class="footer-section">
+                <h3 class="footer-list-title">Company</h3>
+                <ul class="footer-list">
+                  <li><a href="#about">About Us</a></li>
+                  <li><a href="#contact-us">Contact Us</a></li>
+                  <li><a href="#food-menu">Menu</a></li>
+                </ul>
+              </div>
+        
+              <!-- Opening Section -->
+              <div class="footer-section">
+                <h3 class="footer-list-title">Opening</h3>
+                <p>Monday - Saturday<br>9AM - 9PM</p>
+                <p>Sunday<br>10AM - 8PM</p>
+              </div>
+        
+              <!-- Our Branches Section -->
+              <div class="footer-section branches-section">
+                <h3 class="footer-list-title">Our Branches</h3>
+                <table class="branches-table">
+                  <thead>
+                    <tr>
+                      <th>Location</th>
+                      <th>Address</th>
+                      <th>Contact</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Colombo</td>
+                      <td>456, Main Street, Colombo</td>
+                      <td>+94 12345678</td>
+                    </tr>
+                    <tr>
+                      <td>Kandy</td>
+                      <td>789 Hill Road, Kandy</td>
+                      <td>+94 81234567</td>
+                    </tr>
+                    <tr>
+                      <td>Galle</td>
+                      <td>123 Beach Avenue, Galle</td>
+                      <td>+94 19876543</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Footer Bottom -->
+          <div class="footer-bottom">
+            <div class="container">
+              <p class="copyright-text">
+                &copy; 2022 <a href="#" class="copyright-link">YumCrave</a>. All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </footer>
+        
+
+
+        <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+          <ion-icon name="chevron-up"></ion-icon>
+        </a>
+
+        <script src="./assets/js/script.js" defer></script>
+
+        <!-- 
+          - ionicon link
+        -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      </article>
+
+  </body>
+
+</html>
